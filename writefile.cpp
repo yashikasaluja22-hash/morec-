@@ -10,7 +10,8 @@ if(!file){
 //writing data in file
 file << "Patient 1: fever --> flu" << endl;
 file << "patient 2: cough --> cold" << endl;
-
+file.flush();// ensures data actually goes to disk, to flush the buffer
+//Agar program sudden crash ya terminate ho jaaye, recent writes ho sakte buffer me hi ruk jaaye.
 //now close the file
 file.close();
 cout << "Data written successfully!" << endl;

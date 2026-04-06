@@ -1,1 +1,2 @@
-** Helloo this is  a disease file
+Patient 1: fever --> flu
+patient 2: cough --> cold
